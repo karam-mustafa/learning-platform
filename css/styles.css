@@ -21,7 +21,9 @@ h1,h2,h3, .card-title{
 .card {
     box-shadow: 0px 0px 11px -2px #808080bf;
 }
-
+.navbar, footer {
+    background-color: #282875;
+}
 .our-vision{
     background: url('./../images/bg-2.jpg') no-repeat fixed;
     height: 500px;
@@ -42,7 +44,6 @@ h1,h2,h3, .card-title{
 }
 
 footer {
-    background-color: #0d6efc;
-    height: 300px;
-    width: 100%;
+    height: max-content;
+    padding: 10px;
 }
