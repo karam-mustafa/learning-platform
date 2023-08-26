@@ -4,13 +4,293 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,600;1,300&family=Noto+Sans+Arabic:wght@800&family=Poppins:wght@300;600&family=Roboto:ital,wght@0,100;1,100&family=Tajawal:wght@200&display=swap"
+        rel="stylesheet">
+    <link href="./css/styles.css" rel="stylesheet" />
     <title>Document</title>
 </head>
 
 <body>
+    <!-- Start navbar -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-primary">
+        <div class="container">
+            <a class="navbar-brand text-white" href="#">Learning platform</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Our teachers</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End navbar -->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Start Carousel -->
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/bg-1.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/bg-2.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="./images/bg-4.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- End Carousel -->
+
+    <!-- Start About us -->
+    <div class="container mt-5 mb-5">
+        <h2 class="text-center">About us</h2>
+        <p class="text-center">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt optio facere ad ut, quae sunt porro nemo
+            dignissimos unde odio consequuntur doloribus, fugiat ipsum iusto soluta architecto commodi illo vel?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt optio facere ad ut, quae sunt porro nemo
+            dignissimos unde odio consequuntur doloribus, fugiat ipsum iusto soluta architecto commodi illo vel?
+        </p>
+    </div>
+    <!-- End About us -->
+    <hr class="container my-5" />
+    <!-- Start Services -->
+    <div class="container">
+        <h2 class="text-center">Our services</h2>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                <div class="card">
+                    <img src="./images/network-service.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">DevOps service</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary">Request this service</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                <div class="card">
+                    <img src="./images/ai-services.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">DevOps service</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary">Request this service</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                <div class="card">
+                    <img src="./images/mobile-services.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">DevOps service</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary">Request this service</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                <div class="card">
+                    <img src="./images/network-service.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">DevOps service</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary">Request this service</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                <div class="card">
+                    <img src="./images/ai-services.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">DevOps service</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary">Request this service</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 mt-4">
+                <div class="card">
+                    <img src="./images/mobile-services.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">DevOps service</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the
+                            card's content.</p>
+                        <a href="#" class="btn btn-primary">Request this service</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Services -->
+    <hr class="container my-5" />
+    <!-- Start our vision -->
+    <div class="our-vision">
+        <div class="container ">
+            <h2 class="text-center text-white">Our Vision</h2>
+            <p class="text-center text-white">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate odit optio perferendis esse animi
+                repudiandae labore sunt voluptatibus quasi, pariatur molestias obcaecati error dolorum deleniti hic
+                inventore autem? Ullam, voluptate!
+            </p>
+        </div>
+    </div>
+    <!-- End our vision -->
+
+    <!-- Start our teachers -->
+    <div class="container my-5 our-teacher">
+        <h2 class="text-center">Our teachers</h2>
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-4">
+                <div class="card">
+                    <img src="./images/karam.jpeg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Karam Mustafa</h5>
+                        <p class="card-text">Our great frontend teacher</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-4">
+                <div class="card">
+                    <img src="./images/alaa.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Alaa Darish</h5>
+                        <p class="card-text">Our great UI UX teacher</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-4">
+                <div class="card">
+                    <img src="./images/mohammed.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Mohammed Alkordey</h5>
+                        <p class="card-text">Our great frontend teacher</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-4">
+                <div class="card">
+                    <img src="./images/ali.jpg" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Ali Saleh</h5>
+                        <p class="card-text">Our great backend teacher</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End our teachers -->
+    <hr class="container my-5" />
+    <!-- Start contact us -->
+    <form class="container">
+        <h2 class="text-center">Contact us</h2>
+        <div class="mb-3">
+            <label class="form-label">Email address</label>
+            <input type="email" class="form-control">
+            <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Your name</label>
+            <input type="text" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label class="form-label">Your Message</label>
+            <textarea class="form-control">
+          </textarea>
+        </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+    <!-- End contact us -->
+
+    <!-- Start footer -->
+    <footer class="mt-5">
+       <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-4">
+                <h2 class="text-white">Platform Name</h2>
+                <p class="text-white">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident debitis at dolore ab minus quo
+                    mollitia, quos veniam. Enim praesentium fugit odit consequuntur tenetur tempora vel voluptates
+                    deserunt laboriosam nobis.
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-4">
+                <h2 class="text-white">Services</h2>
+                <ul class="text-white">
+                    <li>web design</li>
+                    <li>mobile design</li>
+                    <li>desktop design</li>
+                    <li>AI</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-4">
+                <h2 class="text-white">Services</h2>
+                <ul class="text-white">
+                    <li>About us</li>
+                    <li>Our services</li>
+                    <li>Our teachers</li>
+                    <li>Cotact us</li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 col-sm-12 mt-4">
+                <h2 class="text-white">Contact</h2>
+                <ul class="text-white">
+                    <li>Email</li>
+                    <li>phone number</li>
+                    <li>Location</li>
+                </ul>
+            </div>
+        </div>
+
+        <hr class="bg-white" />
+        <p class="text-white">Copy Right @karam  mustafa</p>
+       </div>
+    </footer>
+    <!-- End footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
